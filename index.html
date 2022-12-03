@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Emprestimoney - Contratação</title>
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+      
+    
+    <div class="whatsapp ajd">
+      <a target="_blank" rel="noopener noreferrer" href="https://wa.me/<?=isset($req['numeroWhatsapp'])?$req['numeroWhatsapp']:'558008782353'?>?text=<?=isset($req['mensagemDisparoWhatsapp'])?urlencode($req['mensagemDisparoWhatsapp']):'Ol%C3%A1%20Emprestimoney!%20quero%20saber%20sobre%20as%20condi%C3%A7%C3%B5es%20de%20empr%C3%A9stimo'?>"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+      <div class="whatsapp smb"></div>
+    </div>
+
+     
+    <nav class="navbar">
+       
+       <a href="index.html" class="nav__ajuste"><img src="images/stoney-logo.png" width="110" class="navbar__logo"></a>
+         
+       </nav>
+
+
+       <section class="section-main">
+        <div class="container">
+          <h2 class="main-title" style="color: #383838;">O Governo já definiu o aumento para Aposentados e Pensionistas em 2023!</h2>
+        </div>
+      </section>
+
+        <section class="">
+          <div class="container">
+              <h1 class="title-valor">E, com isso, foi liberado um novo empréstimo para você no valor de: </h1> <br>
+              <h2 class="valor">R$794,29</h2>
+          </div>
+        </section>
+
+        <section class="text-center">
+          <div class="container">
+              <h1 class="title-valor" style="padding-bottom: 20px;">Para fazer a reserva é muito simples, basta clicar em: </h1> 
+              <a href="contratação-online.html"  class="main-a">Reserve agora!</a>
+              
+          </div>
+        </section>
+
+        <section class="">
+          <div class="container">
+              <h1 class="title-valor">É super rápido, simples e você não precisa nem sair de casa para começar 2023 com mais <span  style="font-weight: 900;">R$794,29</span> no bolso!</h1> 
+          </div>
+        </section>
+
+     
+        <div class="main bg-light">
+          <div class="container">
+          
+            
+              <div class="row-main" >
+              <div class="row row-adjust">
+                <div class="col-sm-6 col-lg-5 col-xl-3 py-3 wow zoomIn">
+                  <div class="features">
+                    <div class="header mb-3">
+                      <img src="images/bancos/safra.png" class="img-features"  alt="">
+                    </div>
+                    <h5 class="h5-features">R$794,29</h5>
+
+                    <p>Custo efetivo total: 1.9% a.m</span></p>
+                    <p>Valor da parcela: <span>R$ 39,87</span></p>
+                     <p style="margin-bottom:25px;">Prazo: <span>54x</span></p>
+                    
+
+                     <a href="contratação-online.html" class="main-a">Reserve agora!</a>
+                  </div>
+                </div>
+                
+            
+             
+                
+                
+            </div>  
+              
+      
+          </div> <!-- .container -->
+        </div> <!-- .page-section -->
+      </section>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/js.js"></script>
+
+</body>
+</html>
